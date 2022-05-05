@@ -1,0 +1,227 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    overflow: scroll;
+}
+.body-part {
+    margin-top: 1px;
+}
+
+.decorator-movil{
+    display: none;
+}
+
+.positions {
+    position: fixed;
+    top: 0;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    z-index: 1;
+}
+
+.body-decorator {
+    width: 100%;
+}
+
+.logo {
+    height: 60px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+}
+
+p {
+    color: white;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+}
+
+.text-service p {
+    color: black;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+}
+
+
+li {
+    margin-top: 30px;
+    margin-left:28px;
+    margin-bottom: 30px;
+
+}
+
+.menu-services
+{
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.menu-icon
+{
+    width: 50%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+
+    height: 350px;
+    background-color: #415F6F;
+    margin-bottom: 0% ;
+}
+
+.pixels-part
+{
+    height: 17px;
+    background-color: #F7BF10;
+    width: 100%;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+.footer-main{
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 262px;
+    margin-bottom: 0%;
+}
+
+.copyright-page{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: #415F6F; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+}
+
+.title-l
+{   
+    color: rgb(158, 159, 255);
+    font-size: 24pt;
+    font-weight: 700;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;   
+}
+
+.title-text
+{   
+    position: absolute;
+    top: 30%;
+    left: 20%;   
+}
+
+.text-services{
+    color: black;
+    font-size: 15pt;
+    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+}
+
+@media (max-width: 882px) {
+
+    body
+    {
+        display: block;
+    }
+
+    .body-decorator {
+        display: none;
+    }
+    .decorator-movil{
+        display: block;
+    }
+    .img-movil{
+        width: 100%;
+    }
+    .title-text
+    {   
+    position: relative;
+    left: 20%;   
+    }
+    .text-services{
+
+        color: black;
+        font-size: 14pt;
+        font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+    }
+    .body-part
+    {
+        display: block;
+        position: relative;
+        top: 120px;
+    }
+    .menu-services{
+        position: relative;
+    }
+}
+@media (max-width: 699px) {
+    nav {
+      display: none;
+    }
+    .body-decorator {
+        display: none;
+    }
+    .menu-services
+    {
+        display: flex;
+        position: block;
+        margin-left: 10%;
+        margin-right: 15%;
+        margin-top: 1%;
+        margin-bottom: 250px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .card-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+    .decorator-movil{
+        display: block;
+        width: 100%;
+    }
+  }
