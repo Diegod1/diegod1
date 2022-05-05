@@ -1,15 +1,29 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Nunito ExtraLight";
+    src: url("https://diegod1.github.io/diegod1/fonts/NunitoSans-ExtraLight.ttf");
+  }
+
+html { 
+    background-color: #fff;
+    width: 100%; 
+}
+
 body{
+    min-height: 100vh;
+    /*
+    height: 100%;*/
     width: 100%;
-    height: 100%;
     padding: 1px;
     overflow: scroll;
 }
 .body-part {
-    margin-top: 1px;
+    /*margin-top: 1px;*/
 }
 
 .decorator-movil{
@@ -148,7 +162,7 @@ footer{
 {   
     position: absolute;
     top: 30%;
-    left: 20%;   
+    left: 20%;  
 }
 
 .text-services{
@@ -171,18 +185,25 @@ footer{
         display: block;
     }
     .img-movil{
+        top: 120px;
         width: 100%;
+        padding: 10%;
     }
     .title-text
-    {   
-    position: relative;
-    left: 20%;   
+    {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 0%;   
     }
     .text-services{
 
         color: black;
         font-size: 14pt;
         font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+        text-align: center;
     }
     .body-part
     {
@@ -193,9 +214,21 @@ footer{
     .menu-services{
         position: relative;
     }
+    .footer-main{
+        padding-top: 80px;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 0%;
+        justify-content: center;
+        text-align: center;
+        background-color: #415f6f;
+    }
 }
 @media (max-width: 699px) {
-    nav {
+    .main-menu nav {
       display: none;
     }
     .body-decorator {
@@ -204,13 +237,16 @@ footer{
     .menu-services
     {
         display: flex;
-        position: block;
-        margin-left: 10%;
-        margin-right: 15%;
-        margin-top: 1%;
-        margin-bottom: 250px;
-        justify-content: space-around;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        justify-content: center;
         flex-direction: column;
+        text-align: center;
+        align-content: center;
+        align-items: center;
     }
 
     .card-box{
@@ -221,7 +257,12 @@ footer{
         height: auto;
     }
     .decorator-movil{
+        top: 120px;
+        position: relative;
         display: block;
         width: 100%;
+    }
+    .positions-movil{
+        top: 121px;
     }
   }
