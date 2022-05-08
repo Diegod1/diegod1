@@ -24,9 +24,9 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    showgrid="false"
-   inkscape:zoom="0.06002415"
-   inkscape:cx="1649.3362"
-   inkscape:cy="2815.5334"
+   inkscape:zoom="0.084886967"
+   inkscape:cx="3593.0133"
+   inkscape:cy="2108.6865"
    inkscape:window-width="1366"
    inkscape:window-height="705"
    inkscape:window-x="-8"
@@ -934,17 +934,17 @@
   <linearGradient
    id="id6"
    gradientUnits="userSpaceOnUse"
-   x1="-1138.67"
-   y1="-450.43399"
-   x2="5064.8599"
-   y2="-1305.47">
+   x1="344.0665"
+   y1="-483.75394"
+   x2="5931.1777"
+   y2="-1538.7095">
    <stop
    offset="0"
    style="stop-opacity:1; stop-color:#E98125"
    id="stop298" />
    <stop
    offset="1"
-   style="stop-opacity:1; stop-color:#D0DB3D"
+   style="stop-opacity:1;stop-color:#fce707"
    id="stop300" />
   </linearGradient>
   <linearGradient
@@ -1232,7 +1232,7 @@
    id="g885">
     <polygon
    class="fil2"
-   points="18888,-3813 21250,-3813 21250,-1451 18888,-1451 "
+   points="21250,-1451 18888,-1451 18888,-3813 21250,-3813 "
    id="polygon627" />
     <path
    id="1"
@@ -2429,7 +2429,7 @@
    id="line1512" />
    <polygon
    class="fil78"
-   points="2582,-93 2582,-61 2581,-4 2596,-15 2598,-390 2583,-380 "
+   points="2598,-390 2583,-380 2582,-93 2582,-61 2581,-4 2596,-15 "
    id="polygon1514" />
    <line
    class="fil34 str7"
