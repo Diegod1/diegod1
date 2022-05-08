@@ -9,6 +9,12 @@
     src: url("https://diegod1.github.io/diegod1/fonts/NunitoSans-ExtraLight.ttf");
   }
 
+@font-face {
+    font-family: "Nunito bold";
+    src: url("https://diegod1.github.io/diegod1/fonts/NunitoSans-Bold.ttf");
+ }
+
+
 html { 
     background-color: #fff;
     width: 100%; 
@@ -41,7 +47,10 @@ body{
 }
 
 .body-decorator {
+    position: relative;
     width: 100%;
+    top: -25px;
+    z-index: -1;
 }
 
 .logo {
@@ -103,14 +112,13 @@ li a {
 footer{
 
     height: 350px;
-    background-color: #415F6F;
+    background-color: #1B7FA8;
     margin-bottom: 0% ;
 }
 
 .pixels-part
 {
-    height: 17px;
-    background-color: #F7BF10;
+    height: 3px;
     width: 100%;
 }
 
@@ -120,10 +128,11 @@ footer{
     align-items: center;
     width: 40%;
     height: auto;
+    padding: 3%;
 }
 
 .footer-main{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
     display: grid;
@@ -136,9 +145,9 @@ footer{
     margin: 0%;
     padding: 0%;
     display: flex;
-    background-color: #415F6F; 
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: white;
 }
 
@@ -152,23 +161,26 @@ footer{
 
 .title-l
 {   
-    color: rgb(158, 159, 255);
-    font-size: 24pt;
-    font-weight: 700;
-    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;   
+    color: #fff;
+    font-size: 45pt;
+    font-family: 'Nunito Bold','Courier New', Courier, monospace;   
 }
 
 .title-text
 {   
     position: absolute;
-    top: 30%;
-    left: 20%;  
+    top: 35%;
+    left: 10%;  
 }
 
+.title-l p {
+    color: #fff;
+    font-family: 'Nunito Bold','Courier New', Courier, monospace;
+}
 .text-services{
-    color: black;
-    font-size: 15pt;
-    font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
+    color: #fff;
+font-size: 20pt;
+font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
 }
 
 @media (max-width: 882px) {
@@ -215,7 +227,7 @@ footer{
         position: relative;
     }
     .footer-main{
-        padding-top: 80px;
+        padding-top: 5px;
         padding-left: 10%;
         padding-right: 10%;
         display: flex;
@@ -224,7 +236,7 @@ footer{
         margin-bottom: 0%;
         justify-content: center;
         text-align: center;
-        background-color: #415f6f;
+        /*background-color: #1B7FA8;*/
     }
 }
 @media (max-width: 699px) {
@@ -264,5 +276,6 @@ footer{
     }
     .positions-movil{
         top: 121px;
+        z-index: 7;;
     }
   }
