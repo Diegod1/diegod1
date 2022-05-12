@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "Nunito ExtraLight";
-    src: url("/fonts/NunitoSans-ExtraLight.ttf");
+    src: url("https://diegod1.github.io/diegod1/fonts/NunitoSans-ExtraLight.ttf");
   }
 
 @font-face {
     font-family: "Nunito bold";
-    src: url("/fonts/NunitoSans-Bold.ttf");
+    src: url("https://diegod1.github.io/diegod1/fonts/NunitoSans-Bold.ttf");
  }
 
 
@@ -110,7 +110,8 @@ li a {
 }
 
 footer{
-    
+
+    height: 350px;
     background-color: #1B7FA8;
     margin-bottom: 0% ;
 }
@@ -175,8 +176,6 @@ footer{
 .title-l p {
     color: #fff;
     font-family: 'Nunito Bold','Courier New', Courier, monospace;
-    position: relative;
-    top: -20px;
 }
 .text-services{
     color: #fff;
@@ -184,7 +183,7 @@ font-size: 20pt;
 font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
 }
 
-@media (max-width: 1134px) {
+@media (max-width: 882px) {
 
     body
     {
@@ -192,11 +191,8 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
     }
 
     .body-decorator {
-        position: relative;
-        width: 100%;
-        top: -125px;
-        z-index: -1;
-      }
+        display: none;
+    }
     .decorator-movil{
         display: block;
     }
@@ -205,7 +201,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         width: 100%;
         padding: 10%;
     }
-   .title-text
+    .title-text
     {  
         display: flex;
         justify-content: center;
@@ -214,19 +210,12 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         position: relative;
         left: 0%;   
     }
-/*    .title-text
-    {  
-        top: -25px; 
-        left: 0; 
-        text-align: center;
-    }
-*/
     .text-services{
 
-        color: rgb(255, 255, 255);
+        color: black;
         font-size: 14pt;
         font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
-
+        text-align: center;
     }
     .body-part
     {
@@ -236,7 +225,6 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
     }
     .menu-services{
         position: relative;
-        top: -125px;
     }
     .footer-main{
         padding-top: 5px;
@@ -251,52 +239,13 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         /*background-color: #1B7FA8;*/
     }
 }
-@media (max-width: 966px) {
-    .title-text
-    {  
-        position: relative;
-        top: 0px;  
-        color: #000;
-    }
-
-    .text-services{
-        color: #000;
-        font-size: 14pt;
-        text-align: center;
-    }
+@media (max-width: 699px) {
     .main-menu nav {
       display: none;
     }
-    .body-part {
-        display: block;
-        position: relative;
-        top: 0px;
-        background-image: url(https://www.adtechsa.com/wp-content/uploads/2019/02/arduino-cuadros-bk.svg);
-
-      }
-    
-    .title-l {
-    color: #1b7fa8;
-    font-size: 14pt;
-    font-family: 'Nunito Bold','Courier New', Courier, monospace;
-    text-align: center;
-    }
-    
-    .title-l p {
-        color: #1b7fa8;
-        font-family: 'Nunito Bold','Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        text-align: center;
-        text-align: center;
-    }
-
     .body-decorator {
-        position: relative;
-        width: 100%;
-        top: 25px;
-        z-index: -1;
-      }
+        display: none;
+    }
     .menu-services
     {
         display: flex;
@@ -310,9 +259,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         text-align: center;
         align-content: center;
         align-items: center;
-        top: 0px;
     }
-
 
     .card-box{
         display: flex;
