@@ -10,7 +10,7 @@
    viewBox="0 0 5779.8882 2815.5088"
    id="svg1628"
    sodipodi:docname="3gfd.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,14 +25,16 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    inkscape:zoom="0.084886967"
-   inkscape:cx="3593.0133"
-   inkscape:cy="2108.6865"
+   inkscape:cx="2774.2775"
+   inkscape:cy="1166.2568"
    inkscape:window-width="1366"
    inkscape:window-height="705"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_x0020_1" />
+   inkscape:current-layer="Capa_x0020_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
  <defs
    id="defs346">
   <font
@@ -937,7 +939,8 @@
    x1="344.0665"
    y1="-483.75394"
    x2="5931.1777"
-   y2="-1538.7095">
+   y2="-1538.7095"
+   gradientTransform="translate(23.560743,1555.009)">
    <stop
    offset="0"
    style="stop-opacity:1; stop-color:#E98125"
@@ -2294,14 +2297,13 @@
   
   
   
-  <g
-   id="g7093"><path
-     class="fil1"
-     d="m -350,-2793 4022,-554 c 601,-83 1158,340 1241,941 l 304,2201 c 82,601 -340,1159 -941,1242 L 255,1591 C -346,1674 -904,1251 -987,650 l -303,-2201 c -83,-601 339,-1159 940,-1242 z"
-     id="path351"
-     style="fill:url(#id6)" /><g
-     id="g7032"><g
-       id="g1561">
+  <path
+   class="fil1"
+   d="m -326.43926,-1237.991 4021.99996,-554 c 601,-83 1158,340 1241,941.00003 l 304,2200.99997 c 82,601 -340,1159 -941,1242 l -4020.99996,554 c -601,83 -1159,-340 -1242,-941 L -1266.4393,4.0090275 C -1349.4393,-596.99097 -927.43926,-1154.991 -326.43926,-1237.991 Z"
+   id="path351"
+   style="fill:url(#id6)" /><g
+   id="g7032"><g
+     id="g1561">
    <path
    class="fil69"
    d="M 3062,-517 4166,29 c 12,6 19,18 19,32 v 1102 c 0,12 -6,23 -16,30 -11,7 -24,7 -35,2 L 3024,639 c -12,-6 -20,-18 -20,-31 V -494 c 0,-13 1,-14 12,-20 10,-7 35,-9 46,-3 z"
@@ -2375,11 +2377,11 @@
    id="path1488" />
    <polygon
    class="fil73"
-   points="2545,640 2994,640 4108,1179 3547,1180 "
+   points="4108,1179 3547,1180 2545,640 2994,640 "
    id="polygon1490" />
    <polygon
    class="fil74"
-   points="2538,649 2987,649 4100,1188 3540,1188 "
+   points="4100,1188 3540,1188 2538,649 2987,649 "
    id="polygon1492" />
    <path
    class="fil75"
@@ -2429,7 +2431,7 @@
    id="line1512" />
    <polygon
    class="fil78"
-   points="2598,-390 2583,-380 2582,-93 2582,-61 2581,-4 2596,-15 "
+   points="2582,-93 2582,-61 2581,-4 2596,-15 2598,-390 2583,-380 "
    id="polygon1514" />
    <line
    class="fil34 str7"
@@ -2527,7 +2529,7 @@
    d="m 4167,825 c -5,-2 -6,-3 -6,3 0,11 -1,64 1,71 4,4 29,16 36,19 6,2 11,4 15,3 9,-5 10,-25 -4,-38 3,-2 5,-1 7,-6 2,-5 2,-12 -1,-17 -6,-18 -32,-27 -48,-35 z m 3,10 c 8,4 16,8 24,11 8,5 15,10 14,21 0,10 -8,8 -15,4 -10,-5 -13,-5 -23,-12 0,-8 0,-16 0,-24 z m -1,44 c 0,-7 -2,-13 5,-10 11,5 35,14 36,31 1,14 -7,13 -17,8 -29,-14 -24,-9 -24,-29 z"
    id="path1558" />
    </g>
-  </g></g></g>
+  </g></g>
   
   
   
