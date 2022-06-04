@@ -57,7 +57,6 @@ body{
     position: relative;
     width: 100%;
     top: -25px;
-    z-index: -1;
 }
 
 .logo {
@@ -282,7 +281,8 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         width: 100%;
     }
     .positions-movil{
+        display: block;
         top: 121px;
-        z-index: 7;;
+        z-index: 2;
     }
   }
