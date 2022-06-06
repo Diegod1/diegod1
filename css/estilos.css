@@ -49,7 +49,6 @@ body{
 .body-decorator {
     position: relative;
     width: 100%;
-    top: -25px;
     z-index: -1;
 }
 
@@ -195,7 +194,6 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         position: relative;
         width: 100%;
         top: -125px;
-        z-index: -1;
       }
     .decorator-movil{
         display: block;
@@ -264,7 +262,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         font-size: 14pt;
         text-align: center;
     }
-    .main-menu nav {
+    .positions-movil .main-menu nav {
       display: none;
     }
     .body-part {
