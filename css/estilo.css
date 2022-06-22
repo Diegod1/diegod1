@@ -56,7 +56,11 @@ body{
 .body-decorator {
     position: relative;
     width: 100%;
-    top: -25px;
+    
+}
+
+.body-decorator-contact {
+    top:102px;
 }
 
 .logo {
@@ -116,7 +120,8 @@ li a {
 }
 
 footer{
-
+    position:relative;
+    top: 100px;
     height: 350px;
     background-color: #1B7FA8;
     margin-bottom: 0% ;
