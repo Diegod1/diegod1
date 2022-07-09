@@ -25,10 +25,10 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    inkscape:zoom="0.1200483"
-   inkscape:cx="5781.0065"
-   inkscape:cy="1507.7265"
-   inkscape:window-width="1366"
-   inkscape:window-height="705"
+   inkscape:cx="4002.5556"
+   inkscape:cy="1241.1671"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
@@ -1000,11 +1000,11 @@
    gradientTransform="translate(23.560743,1555.009)">
    <stop
    offset="0"
-   style="stop-opacity:1; stop-color:#E98125"
+   style="stop-color:#1b7fa8;stop-opacity:1;"
    id="stop298" />
    <stop
    offset="1"
-   style="stop-opacity:1;stop-color:#fce707"
+   style="stop-color:#cccccc;stop-opacity:1;"
    id="stop300" />
   </linearGradient>
   <linearGradient
@@ -2406,7 +2406,8 @@
    id="path1463" /><path
    class="fil28 str7"
    d="m 3106,-403 976,488 c 8,4 13,12 13,21 v 970 c 0,9 -4,16 -11,20 -8,5 -16,5 -23,1 L 3085,610 c -8,-4 -13,-12 -13,-22 v -970 c 0,-8 4,-15 11,-20 7,-4 15,-5 23,-1 z"
-   id="path1465" /><path
+   id="path1465"
+   style="fill:#37483e;fill-opacity:1" /><path
    class="fil29"
    d="m 3694,-14 795,398 c 7,3 11,9 11,17 v 791 c 0,7 -3,13 -9,16 -6,4 -13,4 -19,1 L 3677,811 c -7,-3 -11,-9 -11,-17 V 3 c 0,-7 -10,-3 -4,-6 6,-4 26,-14 32,-11 z"
    id="path1467" /><path
