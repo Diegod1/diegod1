@@ -3,13 +3,13 @@
 
 <svg
    xml:space="preserve"
-   width="5779.8882"
-   height="2815.5088"
+   width="2662.5112"
+   height="1822.0527"
    version="1.1"
    style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-   viewBox="0 0 5779.8882 2815.5088"
+   viewBox="0 0 2662.5112 1822.0527"
    id="svg1628"
-   sodipodi:docname="3gfd.svg"
+   sodipodi:docname="3gfd2.svg"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    inkscape:zoom="0.042443484"
-   inkscape:cx="3498.7703"
-   inkscape:cy="1531.4483"
+   inkscape:cx="671.48117"
+   inkscape:cy="1390.0838"
    inkscape:window-width="1366"
    inkscape:window-height="705"
    inkscape:window-x="-8"
@@ -1195,7 +1195,7 @@
   </defs>
  <g
    id="Capa_x0020_1"
-   transform="translate(841.30878,733.57953)"
+   transform="translate(-1994.9756,592.05269)"
    inkscape:label="Capa 1"
    inkscape:groupmode="layer">
   <metadata
@@ -1322,7 +1322,7 @@
    id="g885">
     <polygon
    class="fil2"
-   points="21250,-1451 18888,-1451 18888,-3813 21250,-3813 "
+   points="18888,-3813 21250,-3813 21250,-1451 18888,-1451 "
    id="polygon627" />
     <path
    id="1"
@@ -2385,10 +2385,6 @@
   
   
   <path
-   class="fil1"
-   d="m -326.43926,-1237.991 4021.99996,-554 c 601,-83 1158,340 1241,941.00003 l 304,2200.99997 c 82,601 -340,1159 -941,1242 l -4020.99996,554 c -601,83 -1159,-340 -1242,-941 L -1266.4393,4.0090275 C -1349.4393,-596.99097 -927.43926,-1154.991 -326.43926,-1237.991 Z"
-   id="path351"
-   style="fill:url(#id6)" /><path
    class="fil69"
    d="M 3062,-517 4166,29 c 12,6 19,18 19,32 v 1102 c 0,12 -6,23 -16,30 -11,7 -24,7 -35,2 L 3024,639 c -12,-6 -20,-18 -20,-31 V -494 c 0,-13 1,-14 12,-20 10,-7 35,-9 46,-3 z"
    id="path1455" /><path
@@ -2441,10 +2437,10 @@
    d="m 2207,-118 c 80,41 159,81 238,121 77,39 153,77 229,116 -1,37 -1,74 -1,112 0,37 0,74 -1,111 -74,-36 -150,-73 -227,-111 -78,-38 -157,-76 -237,-115 0,-39 0,-78 0,-117 -1,-39 -1,-78 -1,-117 z"
    id="path1484" /><polygon
    class="fil73"
-   points="4108,1179 3547,1180 2545,640 2994,640 "
+   points="2545,640 2994,640 4108,1179 3547,1180 "
    id="polygon1490" /><polygon
    class="fil74"
-   points="4100,1188 3540,1188 2538,649 2987,649 "
+   points="2538,649 2987,649 4100,1188 3540,1188 "
    id="polygon1492" /><path
    class="fil75"
    d="m 2195,-109 c 80,41 160,81 238,121 77,39 153,78 229,116 0,38 -1,75 -1,112 0,37 0,74 0,112 -75,-37 -151,-74 -228,-111 -78,-38 -157,-77 -236,-116 -1,-38 -1,-77 -1,-116 0,-39 -1,-78 -1,-118 z"
@@ -2486,7 +2482,7 @@
    y2="-390"
    id="line1512" /><polygon
    class="fil78"
-   points="2598,-390 2583,-380 2582,-93 2582,-61 2581,-4 2596,-15 "
+   points="2582,-93 2582,-61 2581,-4 2596,-15 2598,-390 2583,-380 "
    id="polygon1514" /><line
    class="fil34 str7"
    x1="2028"

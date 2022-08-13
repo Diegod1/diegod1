@@ -35,9 +35,9 @@ body{
     padding: 1px;
     overflow: scroll;
 }
-.body-part {
-    /*margin-top: 1px;*/
-}
+/*.body-part {
+    margin-top: 1px;
+}*/
 
 .decorator-movil{
     display: none;
@@ -196,6 +196,10 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
 
 @media (max-width: 882px) {
 
+    .positions{
+        display: none;
+    }
+
     body
     {
         display: block;
@@ -251,6 +255,9 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
     }
 }
 @media (max-width: 699px) {
+    .positions{
+        display: none;
+    }
     .main-menu nav {
       display: none;
     }

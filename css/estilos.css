@@ -253,7 +253,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
     .title-text
     {  
         position: relative;
-        top: 0px;  
+        top: 120px;  
         color: #000;
     }
 
@@ -268,7 +268,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
     .body-part {
         display: block;
         position: relative;
-        top: 0px;
+        top: 120px;
         background-image: url(https://www.adtechsa.com/wp-content/uploads/2019/02/arduino-cuadros-bk.svg);
 
       }
