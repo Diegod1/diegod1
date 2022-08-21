@@ -131,6 +131,7 @@ footer{
     width: 40%;
     height: auto;
     padding: 3%;
+    margin-top: 210;
 }
 
 .footer-main{
@@ -324,6 +325,7 @@ font-family: 'Nunito ExtraLight','Courier New', Courier, monospace;
         align-items: center;
         width: 90%;
         height: auto;
+        margin-top: 230;
     }
     .decorator-movil{
         top: 120px;
