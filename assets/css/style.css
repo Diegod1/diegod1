@@ -15,6 +15,8 @@
   --white: #ffffff;
   /*--tblue: rgb(20 80 187 / 90%);*/
   --tblue:#2254ad;
+  --button-color:#bde447;
+  --hover-button: #9cc524;
 }
 
 body {
@@ -211,14 +213,15 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  /*border: 2px solid #47b2e4;*/
   font-weight: 600;
+  background-color: var(--button-color);
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: var(--hover-button);
 }
 
 .navbar .dropdown ul {
@@ -1610,7 +1613,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffee07;
+  background: var(--hover-button);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1733,7 +1736,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #ffee07;
+  background: var(--hover-button);
 }
 
 #footer .footer-top {
